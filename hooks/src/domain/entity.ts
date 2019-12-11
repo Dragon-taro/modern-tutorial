@@ -1,5 +1,5 @@
-export interface HistoryElement {
+export interface History {
   squares: ISquare[];
 }
-export type History = HistoryElement[];
+export type Histories = History[];
 export type ISquare = "X" | "O" | null;
